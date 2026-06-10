@@ -8,7 +8,7 @@ Shi et al. used a germanium-silicon photodiode in which nonlinear activation and
 
 This work investigates, at the system level, whether a silicon-photonic NAND gate built from a linear optical unit and an optical nonlinear activation block can be realized and then further studied by cascading the NAND gate to examine XOR realization. One advantage of the NAND gate is that the NAND function is linearly separable, unlike XOR and XNOR. Another advantage is that the NAND gate can be cascaded to realize all other logic gates, as Floyd explained in his textbook [3]. Spears used the XOR gate as a neural-network example and showed that a linear model fails, while a small network with a ReLU activation function can realize XOR exactly [4], as shown in Eqn. 1.
 
-(y=max⁡(0,x_1+x_2 )-2 max⁡(0,x_1+x_2-1)  #(1) )
+(y=max⁡(0,x_1+x_2 )-2 max⁡(0,x_1+x_2-1)                (1) 
 
 ## References 
 [1] J. Feldmann, N. Youngblood, M. Karpov, H. Gehring, X. Li, M. Stappers, M. Le Gallo, X. Fu, A. Lukashchuk, A. S. Raja, J. Liu, C. D. Wright, A. Sebastian, T. J. Kippenberg, W. H. P. Pernice, and H. Bhaskaran, “Parallel convolutional processing using an integrated photonic tensor core,” Nature 589(7840), 52–58 (2021). doi: 10.1038/s41586-020-03070-1.
